@@ -8,11 +8,11 @@ setup(
     install_requires=[
         "flask==3.1.0",
         "flask-cors==5.0.1",
-        "numpy<1.23.0,>=1.22.0",
+        "numpy>=1.22.0,<=1.24.0",
         "opencv-python==4.11.0.86",
         "joblib==1.4.2",
         "pandas==2.2.2",
-        "matplotlib==3.9.1",
+        "matplotlib<3.6",
         "gunicorn==22.0.0"
     ],
     entry_points={
